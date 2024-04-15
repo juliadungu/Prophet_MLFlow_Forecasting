@@ -1,2 +1,3 @@
-# Prophet_MLFlow_Forecasting
-Retail Forecasting with Prophet and MLFlow
+# Prophet-MLFlow-Forecasting
+Retail Sales Data Forecasting with Prophet and MLFlow
+
