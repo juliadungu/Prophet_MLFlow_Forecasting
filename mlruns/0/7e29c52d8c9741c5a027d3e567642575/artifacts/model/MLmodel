@@ -1,0 +1,38 @@
+artifact_path: model
+flavors:
+  prophet:
+    code: null
+    data: model.pr
+    model_type: Prophet
+    prophet_version: 1.1.5
+  python_function:
+    data: model.pr
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.prophet
+    python_version: 3.8.9
+mlflow_version: 2.11.3
+model_size_bytes: 57820
+model_uuid: 66c01d8dd76649a9b53d6ac2fa74324d
+run_id: 7e29c52d8c9741c5a027d3e567642575
+signature:
+  inputs: '[{"type": "datetime", "name": "ds", "required": true}, {"type": "long",
+    "name": "y", "required": true}, {"type": "double", "name": "floor", "required":
+    true}, {"type": "double", "name": "t", "required": true}, {"type": "double", "name":
+    "y_scaled", "required": true}]'
+  outputs: '[{"type": "datetime", "name": "ds", "required": true}, {"type": "double",
+    "name": "trend", "required": true}, {"type": "double", "name": "yhat_lower", "required":
+    true}, {"type": "double", "name": "yhat_upper", "required": true}, {"type": "double",
+    "name": "trend_lower", "required": true}, {"type": "double", "name": "trend_upper",
+    "required": true}, {"type": "double", "name": "additive_terms", "required": true},
+    {"type": "double", "name": "additive_terms_lower", "required": true}, {"type":
+    "double", "name": "additive_terms_upper", "required": true}, {"type": "double",
+    "name": "yearly", "required": true}, {"type": "double", "name": "yearly_lower",
+    "required": true}, {"type": "double", "name": "yearly_upper", "required": true},
+    {"type": "double", "name": "multiplicative_terms", "required": true}, {"type":
+    "double", "name": "multiplicative_terms_lower", "required": true}, {"type": "double",
+    "name": "multiplicative_terms_upper", "required": true}, {"type": "double", "name":
+    "yhat", "required": true}]'
+  params: null
+utc_time_created: '2024-04-15 20:44:59.024483'

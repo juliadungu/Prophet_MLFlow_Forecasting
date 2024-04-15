@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/juliadungu/PycharmProjects/MLFlow_Prophet/mlruns/0/636027df6a34435ab46edddc0ba875c8/artifacts
+end_time: 1713214376323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 636027df6a34435ab46edddc0ba875c8
+run_name: peaceful-ray-713
+run_uuid: 636027df6a34435ab46edddc0ba875c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713214360419
+status: 3
+tags: []
+user_id: juliadungu
